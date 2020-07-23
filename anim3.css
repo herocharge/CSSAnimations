@@ -1,0 +1,75 @@
+@-webkit-keyframes fade {
+  0% {
+    border-top: 10vh solid white;
+    border-left: 10vh solid white;
+    border-bottom: 10vh solid white;
+    border-right: 10vh solid white;
+  }
+  25% {
+    border-top: 10vh solid cornflowerblue;
+    border-left: 10vh solid white;
+    border-bottom: 10vh solid white;
+    border-right: 10vh solid white;
+  }
+  50% {
+    border-right: 10vh solid cornflowerblue;
+    border-left: 10vh solid white;
+    border-bottom: 10vh solid white;
+    border-top: 10vh solid white;
+  }
+  75% {
+    border-top: 10vh solid white;
+    border-left: 10vh solid white;
+    border-bottom: 10vh solid cornflowerblue;
+    border-right: 10vh solid white;
+  }
+  100% {
+    border-top: 10vh solid white;
+    border-left: 10vh solid cornflowerblue;
+    border-bottom: 10vh solid white;
+    border-right: 10vh solid white;
+  }
+}
+
+@keyframes fade {
+  0% {
+    border-top: 10vh solid white;
+    border-left: 10vh solid white;
+    border-bottom: 10vh solid white;
+    border-right: 10vh solid white;
+  }
+  25% {
+    border-top: 10vh solid cornflowerblue;
+    border-left: 10vh solid white;
+    border-bottom: 10vh solid white;
+    border-right: 10vh solid white;
+  }
+  50% {
+    border-right: 10vh solid cornflowerblue;
+    border-left: 10vh solid white;
+    border-bottom: 10vh solid white;
+    border-top: 10vh solid white;
+  }
+  75% {
+    border-top: 10vh solid white;
+    border-left: 10vh solid white;
+    border-bottom: 10vh solid cornflowerblue;
+    border-right: 10vh solid white;
+  }
+  100% {
+    border-top: 10vh solid white;
+    border-left: 10vh solid cornflowerblue;
+    border-bottom: 10vh solid white;
+    border-right: 10vh solid white;
+  }
+}
+
+.b1 {
+  position: absolute;
+  top: 40vh;
+  left: 45vw;
+  border: 10vw solid white;
+  -webkit-animation: fade 4s ease infinite;
+          animation: fade 4s ease infinite;
+}
+/*# sourceMappingURL=anim3.css.map */

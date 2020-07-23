@@ -1,0 +1,73 @@
+// div{
+//     position: absolute;
+//     width: 5vw;
+//     height:5vw;
+//     background-color: white;
+//     transform: rotate(45deg);
+// }
+// .b1{
+//     top:30vh;
+//     left:45vw;
+//     animation: fade 1s ease 4s infinite;
+    
+// }
+// .b2{
+//     top:50vh;
+//     left:45vw;
+//     animation: fade 1s ease 3s infinite;
+// }
+// .b3{
+//     top:40vh;
+//     left:40vw;
+//     animation: fade 1s ease 2s infinite;
+
+// }
+// .b4{
+//     top:40vh;
+//     left:50vw;
+//     animation: fade 1s ease 1s infinite;
+
+// }
+
+@keyframes fade{
+    0%{
+        border-top: 10vh solid white;
+        border-left: 10vh solid white;
+        border-bottom: 10vh solid white;
+        border-right: 10vh solid white;
+    }
+    25%{
+        border-top: 10vh solid cornflowerblue;
+        border-left: 10vh solid white;
+        border-bottom: 10vh solid white;
+        border-right: 10vh solid white;
+    }
+    50%{
+        border-right: 10vh solid cornflowerblue;
+        border-left: 10vh solid white;
+        border-bottom: 10vh solid white;
+        border-top: 10vh solid white;
+    }
+    75%{
+        border-top: 10vh solid white;
+        border-left: 10vh solid white;
+        border-bottom: 10vh solid cornflowerblue;
+        border-right: 10vh solid white;
+    }
+    100%{
+        border-top: 10vh solid white;
+        border-left: 10vh solid cornflowerblue;
+        border-bottom: 10vh solid white;
+        border-right: 10vh solid white;
+    }
+    
+}
+
+.b1{
+    position: absolute;
+    top:40vh;
+    left:45vw;
+    border: 10vw solid white;
+    animation: fade 4s ease infinite;
+
+}
