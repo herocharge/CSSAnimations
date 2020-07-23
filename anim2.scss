@@ -1,0 +1,38 @@
+body{
+   background-color:black;
+}
+.obj{
+
+
+    position: absolute;
+    height: 10vw;
+    width:10vw;
+    
+    z-index: 2;
+    left: 50vw;
+    border: 5px solid rgb(65, 243, 139);
+    animation: move 8s infinite ;
+}
+
+.tri{
+    position: absolute;
+    top: 50vh;
+    left: 42vw;
+    width: 10vw;
+	height: 10vw;
+    border:5px solid rgb(247, 123, 123);
+    border-radius: 50%;
+    animation: move2 8s ease 1s infinite ;
+}
+
+@keyframes move{
+    0%{top: 50vh;}
+    50%{top: 45vh;}
+    100%{top: 50vh;}
+}
+
+@keyframes move2{
+    0%{top: 55vh;}
+    50%{top: 50vh;}
+    100%{top: 55vh;}
+}

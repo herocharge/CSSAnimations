@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+}
+
+.obj {
+  position: absolute;
+  height: 10vw;
+  width: 10vw;
+  z-index: 2;
+  left: 50vw;
+  border: 5px solid #41f38b;
+  -webkit-animation: move 8s infinite;
+          animation: move 8s infinite;
+}
+
+.tri {
+  position: absolute;
+  top: 50vh;
+  left: 42vw;
+  width: 10vw;
+  height: 10vw;
+  border: 5px solid #f77b7b;
+  border-radius: 50%;
+  -webkit-animation: move2 8s ease 1s infinite;
+          animation: move2 8s ease 1s infinite;
+}
+
+@-webkit-keyframes move {
+  0% {
+    top: 50vh;
+  }
+  50% {
+    top: 45vh;
+  }
+  100% {
+    top: 50vh;
+  }
+}
+
+@keyframes move {
+  0% {
+    top: 50vh;
+  }
+  50% {
+    top: 45vh;
+  }
+  100% {
+    top: 50vh;
+  }
+}
+
+@-webkit-keyframes move2 {
+  0% {
+    top: 55vh;
+  }
+  50% {
+    top: 50vh;
+  }
+  100% {
+    top: 55vh;
+  }
+}
+
+@keyframes move2 {
+  0% {
+    top: 55vh;
+  }
+  50% {
+    top: 50vh;
+  }
+  100% {
+    top: 55vh;
+  }
+}
+/*# sourceMappingURL=anim2.css.map */
